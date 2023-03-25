@@ -6,6 +6,10 @@
     --hoverTextColor:rgb(244, 51, 151);
     --textColor:rgb(87, 85, 85);
 }
+html{
+    scroll-behavior: smooth;
+    /* font-size: 62.5%; */
+}
 body{
     margin: o;
     padding: 0;
@@ -16,15 +20,26 @@ body{
 img{
     width: 100%;
 }
+.header-section{
+    background-color: white;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    z-index: 1000;
+}
 .header{
     height: 75px;
-    /* background-color: red; */
+    width: 100%;
+    background-color: white;
     outline: 1px solid #ccc;
+    /* z-index: 1000; */
     padding: 0px 10px;
     display: flex;
     align-items: center;
     justify-content: space-between;
     font-weight: 400;
+    /* position: fixed; */
+    /* top: 0; */
 }
 .headerLeft,
 .headerRight{
@@ -176,10 +191,11 @@ form{
 
 /* navigations */
 
-nav{
+.navbar{
     width: 100%;
     border-bottom: 1px solid #ccc;
     height: 54px;
+    z-index: 1000;
    
    
 }
