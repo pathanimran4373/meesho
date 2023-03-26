@@ -255,7 +255,8 @@ nav ul li:hover{
  /* loerst price */
  .lowestpriceContainer{
     display: flex;
-    margin: 50px auto;
+    margin: 100px auto;
+    padding-top: 50px;
     max-width: 1100px;
  }
  .lowestpriceContainer h1{
